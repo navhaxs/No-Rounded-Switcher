@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Xposed_Installer_Materialized</string>
+    <string name="action_settings">Settings</string>
+</resources>

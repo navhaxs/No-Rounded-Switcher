@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.systemUI.overlay.Batsy"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-sdk
+        android:minSdkVersion="22"
+        android:targetSdkVersion="22"
+        android:maxSdkVersion="22" />
+    <overlay android:targetPackage="com.android.systemui" android:priority="55"/>
+
+    <meta-data android:name="rom" android:value="Cataclysm" />
+    <meta-data android:name="infoShort" android:value="Batsy Theme" />
+    <meta-data android:name="infoLong" android:value="Batsy theme for SystemUI" />
+    <meta-data android:name="author" android:value="Gary Whitney" />
+
+</manifest>
