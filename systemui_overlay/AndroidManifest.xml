@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.systemUI.overlay.Batsy"
+    package="com.android.systemUI.overlay.NoRoundedSwitcher"
     android:versionCode="1"
     android:versionName="1.0" >
     <uses-sdk
@@ -8,9 +8,10 @@
         android:maxSdkVersion="22" />
     <overlay android:targetPackage="com.android.systemui" android:priority="55"/>
 
-    <meta-data android:name="rom" android:value="Cataclysm" />
-    <meta-data android:name="infoShort" android:value="Batsy Theme" />
-    <meta-data android:name="infoLong" android:value="Batsy theme for SystemUI" />
-    <meta-data android:name="author" android:value="Gary Whitney" />
+    <!-- where is the documentation for these tags?.. and where will this info shown to users? -->
+    <meta-data android:name="rom" android:value="JDCTeam AOSP 6.0" /><!-- is this field the ROM which this overlay (theme) is intended for use on?-->
+    <meta-data android:name="infoShort" android:value="No Rounded Switcher" />
+    <meta-data android:name="infoLong" android:value="Disables the rounded corners in the task switcher" />
+    <meta-data android:name="author" android:value="navhaxs" />
 
 </manifest>

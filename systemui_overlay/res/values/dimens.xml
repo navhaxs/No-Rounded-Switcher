@@ -1,0 +1,4 @@
+<resources>
+    <!-- The radius of the rounded corners on a task view. -->
+    <dimen name="recents_task_view_rounded_corners_radius">2dp</dimen>
+</resources>
